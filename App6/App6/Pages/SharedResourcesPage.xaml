@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.SharedResourcesPage"
+             xmlns:local="clr-namespace:App6"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{x:Static local:Constantes.TituloLabel1}"
+                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="{x:Static local:Constantes.TituloLabel2}"
+                TextColor="{StaticResource horzOptions}"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="{x:Static local:Constantes.TituloLabel3}"
+                TextColor="{StaticResource horzOptions}"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to Xamarin.Forms! 4"
+                    TextColor="{StaticResource horzOptions}"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to Xamarin.Forms! 5"
+                  
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
