@@ -1539,20 +1539,6 @@
         "build": {
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
-      },
-      "App6/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
-        },
-        "compile": {
-          "bin/placeholder/App6.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/App6.dll": {}
-        }
       }
     }
   },
@@ -3157,16 +3143,10 @@
         "xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
-    },
-    "App6/1.0.0": {
-      "type": "project",
-      "path": "../App6/App6.csproj",
-      "msbuildProject": "../App6/App6.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v12.0": [
-      "App6 >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -3202,11 +3182,7 @@
       },
       "frameworks": {
         "monoandroid12.0": {
-          "projectReferences": {
-            "C:\\temp\\App6\\App6\\App6\\App6.csproj": {
-              "projectPath": "C:\\temp\\App6\\App6\\App6\\App6.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
