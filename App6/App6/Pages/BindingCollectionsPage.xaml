@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.BindingCollectionsPage"
+             xmlns:local="clr-namespace:App6"
+             xmlns:converters="clr-namespace:App6.Converters"
+             >
+    <ContentPage.Resources>
+        <converters:EstadoClienteConverter x:Key="EstadoClienteConverter">
+        </converters:EstadoClienteConverter>  
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ListView ItemsSource="{x:Static local:CapaDatos.Clientes}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding Nombre}"
+                                        TextColor="{Binding EsActivo,
+                                             Converter={StaticResource EstadoClienteConverter}}"
+                                        ></Label>
+                                <Label Text="{Binding Apellido}"
+                                       TextColor="{Binding EsActivo,
+                                             Converter={StaticResource EstadoClienteConverter}}"
+                                       ></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
