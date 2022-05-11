@@ -20,4 +20,7 @@ C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\SharedResourcesPage.xaml.g
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\ConstrainExpressionPage.xaml.g.cs
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\ViewToViewBindingPage.xaml.g.cs
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\BindingCollectionsPage.xaml.g.cs
+<<<<<<< HEAD
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\MVVMPage.xaml.g.cs
+=======
+>>>>>>> aeaa10144a0cfab2d5d312e46ab74ac4e35eebe9
