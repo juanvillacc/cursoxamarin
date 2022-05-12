@@ -11,7 +11,7 @@ namespace App6
         {
             InitializeComponent();
 
-            MainPage = new MVVMPage();
+            MainPage = new MenuListViewPage();
         }
 
         protected override void OnStart()
