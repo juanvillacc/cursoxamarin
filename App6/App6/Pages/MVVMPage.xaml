@@ -20,7 +20,7 @@
                 Value="{Binding Rotation}"
                     Maximum="360"
                     />
-
+            <Button Text="Girar a 90" Command="{Binding GirarLabel}"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

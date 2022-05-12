@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace App6
@@ -9,6 +10,8 @@ namespace App6
     public class MVVMPageViewModel : INotifyPropertyChanged
     {
         private DateTime _fechaActual;
+
+        public ICommand GirarLabel { get; set; }
 
         public MVVMPageViewModel()
         {
@@ -18,6 +21,16 @@ namespace App6
                 this.FechaActual = DateTime.Now;
                 return true;
             });
+
+            GirarLabel = new Command(
+                execute: () =>
+                {
+                    Rotation += 90;
+                },
+                canExecute: () =>
+                {
+                    return Rotation > 0;
+                });
 
         }
         private float _rotation;
@@ -33,6 +46,7 @@ namespace App6
                     {
                         PropertyChanged(this,
                             new PropertyChangedEventArgs("Rotation"));
+                        ((Command)GirarLabel).ChangeCanExecute();
                     }
                     _rotation = value;
                 }
