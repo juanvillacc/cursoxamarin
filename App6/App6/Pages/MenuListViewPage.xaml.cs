@@ -24,7 +24,6 @@ namespace App6.Pages
             Page pagina = (Page)Activator.CreateInstance(paginaSeleccionada.Tipo);
             Application.Current.MainPage = new NavigationPage(pagina);
 
-
         }
     }
 }

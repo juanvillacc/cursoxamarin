@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.ViewCommandsPage"
+             xmlns:local="clr-namespace:App6"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ViewCommandsPageViewModel x:Key="ViewCommandsPageViewModel">
+
+            </local:ViewCommandsPageViewModel>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        
+        <StackLayout BindingContext="{StaticResource ViewCommandsPageViewModel}">
+            <Label Text="{Binding Mensaje}"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="Red"
+                   />
+            <Button Text="Presioname" 
+                    Command="{Binding CommandGeneral}" CommandParameter="Button"/>
+
+            <ImageButton 
+                Source="https://www.domier.com.co/8-large_default/mug-today-is-a-good-day.jpg"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Aspect="AspectFit"
+                Command="{Binding CommandGeneral}"
+                CommandParameter="ImageButton"
+                />
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

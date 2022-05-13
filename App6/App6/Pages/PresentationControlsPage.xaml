@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.PresentationControlsPage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView 
+                Color="Gold"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                CornerRadius="5"
+                >
+            </BoxView>
+            <Ellipse
+                Fill="Red"
+                WidthRequest="50"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                />
+            <Image 
+                Source="https://www.domier.com.co/8-large_default/mug-today-is-a-good-day.jpg"
+                Aspect="AspectFit"  
+                HorizontalOptions="Center"
+                />
+            <Line 
+                X1="40"
+                Y1="0"
+                X2="0"
+                Y2="120"
+                Stroke="Blue"        
+                StrokeThickness="5"
+                HorizontalOptions="Center"
+                />
+            <Path 
+                Stroke="Black"
+                HorizontalOptions="Center"
+                Data="M13.9,16.2
+                        L32,16.2 32,31.9 13.9,30.1Z
+                        M0,16.2
+                        L11.9,16.2 11.9,29.9 0,28.6Z
+                        M11.9,2
+                        L11.9,14.2 0,14.2 0,3.3Z
+                        M32,0
+                        L32,14.2 13.9,14.2 13.9,1.8Z"
+                
+                />
+            <Polyline 
+                Points="0,0 10,30 15,0 18,60"
+                Stroke="Red"
+                HorizontalOptions="Center"
+                
+                />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,7 +11,7 @@ namespace App6
         {
             InitializeComponent();
 
-            MainPage = new MenuListViewPage();
+            MainPage = new EditingTextPage();
         }
 
         protected override void OnStart()
