@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App6.Pages.ViewsForSettingValuesPage">
     <ContentPage.Content>
-        <StackLayout>
+        <FlexLayout Direction="Column">
             <CheckBox 
                     IsChecked="True"
                     HorizontalOptions="Center"
@@ -39,6 +39,6 @@
             <SearchBar 
                 Placeholder="Digite al dato a buscar"
                 ></SearchBar>
-        </StackLayout>
+        </FlexLayout>
     </ContentPage.Content>
 </ContentPage>
