@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.ViewsForSettingValuesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <CheckBox 
+                    IsChecked="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+            ></CheckBox>
+            <Slider
+                Minimum="0"
+                Maximum="100"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="CenterAndExpand"
+                ></Slider>
+            <Stepper 
+                    Minimum="0"
+                    Maximum="5"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                ></Stepper>
+            <Switch
+                IsToggled="False"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                ></Switch>
+            <DatePicker
+                Format="D"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                
+                ></DatePicker>
+            <TimePicker 
+                Format="T"
+                
+                ></TimePicker>
+            <SearchBar 
+                Placeholder="Digite al dato a buscar"
+                ></SearchBar>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

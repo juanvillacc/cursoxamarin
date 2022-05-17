@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.ViewsToIndicateActivityPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ActivityIndicator
+                IsRunning="True"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"                
+                ></ActivityIndicator>
+            <ProgressBar
+                Progress=".8"
+                ></ProgressBar>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

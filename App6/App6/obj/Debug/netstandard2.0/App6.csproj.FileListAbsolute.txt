@@ -25,3 +25,5 @@ C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\MenuListViewPage.xaml.g.cs
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\PresentationControlsPage.xaml.g.cs
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\ViewCommandsPage.xaml.g.cs
 C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\EditingTextPage.xaml.g.cs
+C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\ViewsForSettingValuesPage.xaml.g.cs
+C:\temp\App6\App6\App6\obj\Debug\netstandard2.0\Pages\ViewsToIndicateActivityPage.xaml.g.cs

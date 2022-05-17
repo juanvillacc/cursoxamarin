@@ -31,7 +31,11 @@
                 Command="{Binding CommandGeneral}"
                 CommandParameter="ImageButton"
                 />
-           
+            <SearchBar 
+                Placeholder="Digite al dato a buscar"
+                SearchCommand="{Binding CommandGeneral}"
+                SearchCommandParameter="SearchBar"
+                ></SearchBar>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
